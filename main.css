@@ -121,7 +121,7 @@ p a {
 p a:hover {
     color: white;
 }
-.section1, .section2, .section3, .section4 {
+.section1, .section2, .section3, .section4, .section5 {
     height: 700px; 
     padding-left: 70px;
     box-shadow: 2px 2px 10px rgb(210, 38, 26);
@@ -132,7 +132,7 @@ h2 {
     color: white;
     padding-top: 80px;
 }
-.img1, .img2, .img3, .img4 {
+.img1, .img2, .img3, .img4, .img5 {
     width: 605px;
     height: 340px;
    
@@ -156,7 +156,7 @@ span {
     float: right;
     clear: right;
 }
-#id1, #id2, #id3, #id4 {
+#id1, #id2, #id3, #id4, #id5 {
     font-size: 1.25rem;
     width: 60px;
     height: 50px;
@@ -212,6 +212,17 @@ span {
     left: -5px;
 } 
 
+.img5 {
+    background-image: url(/1920\ Horrors\ of\ the\ Heart.jpeg);
+    background-size: 100% 100%;
+    box-shadow: 1px 1px 10px rgb(210, 38, 26);
+    position: relative;
+}
+#id5 {
+    position: absolute;
+    top: 55px;  
+    left: -5px;
+} 
 
 @media screen and (max-width: 992px) {
 .contentside {
@@ -237,13 +248,13 @@ span {
     h1 {
         font-size: 4rem;
     }
-    .img1, .img2, .img3, .img4 {
+    .img1, .img2, .img3, .img4, .img5 {
         width: 305px;
         height: 200px;
     
         
     }
-    #id1, #id2, #id3, #id4 {
+    #id1, #id2, #id3, #id4, #id5 {
         font-size: 1rem;
         width: 40px;
         height: auto;
@@ -259,7 +270,6 @@ span {
         font-size: 3rem;
     }
     .header p {
-    
         font-size: 1rem;
         position: absolute;
         top: 50%;
